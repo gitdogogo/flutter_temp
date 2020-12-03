@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+使用fluro+provider+dio
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
