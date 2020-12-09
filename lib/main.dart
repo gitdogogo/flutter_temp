@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:flutter_temp/providers.dart';
-import 'package:flutter_temp/router/index.dart';
-import 'package:flutter_temp/views/home/index.dart';
+import 'package:huibobo/providers.dart';
+import 'package:huibobo/router/index.dart';
 
 void main() {
   runApp(App());
@@ -14,9 +13,6 @@ class App extends StatefulWidget {
 }
 
 class _AppState extends State<App> {
-  _AppState() {
-    Route1.init();
-  }
   @override
   Widget build(BuildContext context) {
     return MultiProvider(
@@ -33,8 +29,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'router',
-      initialRoute: '/',
-      onGenerateRoute: Route1.router.generator,
+      routes: routes,
+      // onGenerateRoute: Route1.router.generator,
     );
   }
 }

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_temp/components/header.dart';
+import 'package:huibobo/components/header.dart';
 
-import 'home-ui.dart';
+import 'home_ui.dart';
 
 class Home extends StatelessWidget {
   const Home({Key key}) : super(key: key);

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_temp/components/header.dart';
+import 'package:huibobo/components/header.dart';
 
-import 'deport-ui.dart';
+import 'deport_ui.dart';
 
 class Depot extends StatelessWidget {
   const Depot({Key key}) : super(key: key);

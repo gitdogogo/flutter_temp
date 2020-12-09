@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_temp/components/header.dart';
+import 'package:huibobo/components/header.dart';
 
-import 'detail-ui.dart';
+import 'detail_ui.dart';
 
 class Detail extends StatelessWidget {
   const Detail({Key key}) : super(key: key);
